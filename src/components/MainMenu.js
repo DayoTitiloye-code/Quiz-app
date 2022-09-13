@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { QuizContext } from '../helpers/Context'
+import '../App.css'
 
 function MainMenu() {
   /*Used to gain access to state without having to use props */
