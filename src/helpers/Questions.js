@@ -5,7 +5,7 @@ export const Question = [
     optionB: 'Bicep curls',
     optionC: 'Bench press',
     optionD: 'Pull ups',
-    answer: 'optionC',
+    answer: 'C',
   },
   {
     prompt: 'Who is the fastest man alive?',
@@ -13,7 +13,7 @@ export const Question = [
     optionB: 'Usain Bolt',
     optionC: 'Ryan Renolds',
     optionD: 'Floyd Mayweather Jr',
-    answer: 'optionB',
+    answer: 'B',
   },
   {
     prompt: 'How many Wimbledon championships has Serena Williams won?',
@@ -21,6 +21,6 @@ export const Question = [
     optionB: '12',
     optionC: '3',
     optionD: '4',
-    answer: 'optionA',
+    answer: 'A',
   },
 ]
