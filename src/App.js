@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useState, useContext } from 'react'
+import React, { useState } from 'react'
 import MainMenu from './components/MainMenu'
 import Quiz from './components/Quiz'
 import EndScreen from './components/EndScreen'
@@ -11,7 +11,7 @@ function App() {
   i.e. main menu, end of quiz, etc.*/
   const [gameState, setGameState] = useState('menu')
   const [score, setScore] = useState(0)
-
+  console.log(gameState)
   return (
     <div className="App">
       <h1>Sports Quiz</h1>
