@@ -5,7 +5,7 @@ import '../App.css'
 function MainMenu() {
   /*Used to gain access to state without having to use props */
   const { gameState, setGameState } = useContext(QuizContext)
-
+  console.log(gameState)
   return (
     <div className="Menu">
       <button
