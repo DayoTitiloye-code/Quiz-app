@@ -96,7 +96,7 @@ export const Question = [
     answer: 'D',
   },
   {
-    prompt: 'What is the only sport to be played on the moon',
+    prompt: 'What is the only sport to be played on the moon?',
     optionA: 'Basketball',
     optionB: 'Golf',
     optionC: 'Cricket',
